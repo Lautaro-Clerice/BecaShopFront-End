@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beca Shop!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="./LOGO/taza-de-cafe.png" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script href="../styles.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="../index.html">
+      <div class="logo"><img src="../IMG/Beca Shop (3).png" alt="becashop"></div>
+    </a>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand logo-mob" href="../index.html"></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./Productos.html"> Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./Contactos.html">Contactos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./Preguntas-frecuentes.html">Preguntas Frecuentes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="Contenedor-productos">
+      <div class="categorias">
+        <h3>Nuestros Productos</h3>
+        <label>
+          <input type="checkbox" value="vasos-termicos" />Vasos térmicos
+        </label><br>
+        <label>
+          <input type="checkbox" value="cocina" />Cocina
+        </label><br>
+        <label>
+          <input type="checkbox" value="deco" />Deco
+        </label><br>
+        <label>
+          <input type="checkbox" value="pijamas" />Pijamas
+        </label><br>
+        <label>
+          <input type="checkbox" value="pantuflas" />Pantuflas
+        </label><br>
+        <label>
+          <input type="checkbox" value="mates" />Mates
+        </label><br>
+        <label>
+          <input type="checkbox" value="botellas" />Botellas
+        </label><br>
+        <label>
+          <input type="checkbox" id="todos" checked />Todos
+        </label>
+      </div>
+      <section class="contenedor Contenedor-productos">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+          <!--BOTELLAS-->
+          <div class="item product" data-seccion="botellas">
+            <img
+              src="../ProductosBeca/bot.silicona verde.jpg"
+              alt="" class="img-item">
+            <span class="titulo-item">Botella con banda de silicona verde</span>
+            <span class="precio-item">$980</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="botellas">
+            <img src="../ProductosBeca/bot.silicona violeta.jpg" alt="" class="img-item">
+            <span class="titulo-item">Botella con banda de silicon violeta</span>
+            <span class="precio-item">$980</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="botellas">
+            <img src="../ProductosBeca/botella con tapa flors.jpg" alt="" class="img-item">
+            <span class="titulo-item">Botella joy con tapa</span>
+            <span class="precio-item">$820</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="botellas">
+            <img src="../ProductosBeca/botella water.jpg" alt="" class="img-item">
+            <span class="titulo-item">Botellas Water</span>
+            <span class="precio-item">$650</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="botellas">
+            <img src="../ProductosBeca/botellon 1lt..jpg" alt="" class="img-item">
+            <span class="titulo-item">Botellon 1Lt</span>
+            <span class="precio-item">$1550</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <!--DECORACION-->
+          <div class="item product" data-seccion="deco">
+            <img src="../ProductosBeca/maceta llama.jpg" alt="" class="img-item">
+            <span class="titulo-item">Maceta de llama</span>
+            <span class="precio-item">$1500</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <!--PANTUFLAS-->
+          <div class="item product" data-seccion="pantuflas">
+            <img src="../ProductosBeca/pantus bob.jpg" alt="" class="img-item">
+            <span class="titulo-item">Pantuflas Bob esponja</span>
+            <span class="precio-item">$4100</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="pantuflas">
+            <img src="../ProductosBeca/pantus chanchito.jpg" alt="" class="img-item">
+            <span class="titulo-item">Pantuflas chanchito</span>
+            <span class="precio-item">$4100</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="pantuflas">
+            <img src="../ProductosBeca/pantus gatito.jpg" alt="" class="img-item">
+            <span class="titulo-item">Pantuflas gatito</span>
+            <span class="precio-item">$4100</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="pantuflas">
+            <img src="../ProductosBeca/pantus pantera rosa.jpg" alt="" class="img-item">
+            <span class="titulo-item">Pantuflas pantera rosa</span>
+            <span class="precio-item">$4100</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="pantuflas">
+            <img src="../ProductosBeca/pantus stitch.jpg" alt="" class="img-item">
+            <span class="titulo-item">Pantuflas Stitch</span>
+            <span class="precio-item">$4100</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <!--Set de mate con termo-->
+          <div class="item product" data-seccion="mates">
+            <img src="../ProductosBeca/set de mate animal print .jpg" alt="" class="img-item">
+            <span class="titulo-item">Set de mate con termo Animal Print</span>
+            <span class="precio-item">$8100</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="mates">
+            <img src="../ProductosBeca/set matero vibra alto.jpg" alt="" class="img-item">
+            <span class="titulo-item">Set de mate Vibra alto</span>
+            <span class="precio-item">$2300</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+        <!--VASOS-->
+          <div class="item product" data-seccion="vasos-termicos">
+            <img src="../ProductosBeca/taza ondulada vivi el hoyo.jpg" alt="" class="img-item">
+            <span class="titulo-item">Taza ondulada</span>
+            <span class="precio-item">$1600</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="vasos-termicos">
+            <img src="../ProductosBeca/tazon chanchito.jpg" alt="" class="img-item">
+            <span class="titulo-item">Tazon Chanchito</span>
+            <span class="precio-item">$2100</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="vasos-termicos">
+            <img src="../ProductosBeca/vaso cafe rosado.jpg" alt="" class="img-item">
+            <span class="titulo-item">Vaso Coffee</span>
+            <span class="precio-item">$710</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="vasos-termicos">
+            <img src="../ProductosBeca/vaso coffe negro2.jpg" alt="" class="img-item">
+            <span class="titulo-item">Vaso coffee Umma</span>
+            <span class="precio-item">$980</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="vasos-termicos">
+            <img src="../ProductosBeca/vaso termico flores.jpg" alt="" class="img-item">
+            <span class="titulo-item">Vaso coffee Umma</span>
+            <span class="precio-item">$980</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="vasos-termicos">
+            <img src="../ProductosBeca/Vaso termico rosado.jpg" alt="" class="img-item">
+            <span class="titulo-item">Vaso coffee Max</span>
+            <span class="precio-item">$980</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item product" data-seccion="vasos-termicos">
+            <img src="../ProductosBeca/vaso termico verede aqua.jpg" alt="" class="img-item">
+            <span class="titulo-item">Vaso coffee Max</span>
+            <span class="precio-item">$980</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+          <div class="header-carrito">
+            <h2>Tu Carrito</h2>
+          </div>
+
+          <div class="carrito-items">
+            <!-- 
+              <div class="carrito-item">
+                  <img src="img/boxengasse.png" width="80px" alt="">
+                  <div class="carrito-item-detalles">
+                      <span class="carrito-item-titulo">Box Engasse</span>
+                      <div class="selector-cantidad">
+                          <i class="fa-solid fa-minus restar-cantidad"></i>
+                          <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                          <i class="fa-solid fa-plus sumar-cantidad"></i>
+                      </div>
+                      <span class="carrito-item-precio">$15.000,00</span>
+                  </div>
+                 <span class="btn-eliminar">
+                      <i class="fa-solid fa-trash"></i>
+                 </span>
+              </div>
+              <div class="carrito-item">
+                  <img src="img/skinglam.png" width="80px" alt="">
+                  <div class="carrito-item-detalles">
+                      <span class="carrito-item-titulo">Skin Glam</span>
+                      <div class="selector-cantidad">
+                          <i class="fa-solid fa-minus restar-cantidad"></i>
+                          <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                          <i class="fa-solid fa-plus sumar-cantidad"></i>
+                      </div>
+                      <span class="carrito-item-precio">$18.000,00</span>
+                  </div>
+                 <button class="btn-eliminar">
+                      <i class="fa-solid fa-trash"></i>
+                 </button>
+              </div>
+               -->
+          </div>
+          <div class="carrito-total">
+            <div class="fila">
+              <strong>Tu Total</strong>
+              <span class="carrito-precio-total">
+                $120.000,00
+              </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+          </div>
+          
+          
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="foot-inicio">
+      <h4>Necesitas ayuda?</h4>
+      <ul>
+        <li><a href="#">¿Como hacer un pedido?</a></li>
+        <li><a href="#">¿Puedo comprar directo desde la web?</a></li>
+        <li><a href="#">Metodos de envio</a></li>
+        <li><a href="#">Boton de arrepentimiento</a></li>
+        <li><a href="#">Nuestras Gift Card</a></li>
+      </ul>
+    </div>
+    <address>
+      Copyright © 2023 - Desarrollado por <b>Lautaro Clerice</b>
+    </address>
+  </footer>
+  <a href="https://api.whatsapp.com/send?phone=1162183918" target="_blank" class="whatsapp">
+    <ion-icon name="logo-whatsapp"></ion-icon>
+  </a>
+  <script src="../styles.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

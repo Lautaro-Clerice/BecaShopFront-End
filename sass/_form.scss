@@ -1,0 +1,57 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form form ::placeholder {
+    color: #ffffff;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    padding: 10px;
+    resize: none;
+    width: 500px;
+    height: 100px;
+    margin-left: 30px;
+    border: none;
+    box-shadow: 0px 0px 7px #c155cfd7;
+    background-color: #c155cf34;
+    text-align: center;
+}
+
+#formulario {
+    padding: 10px;
+    text-align: center;
+    margin: 7px;
+    width: 500px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border: none;
+    box-shadow: 0px 0px 7px #c155cfc7;
+    background-color: #c155cf48;
+}
+
+.btn2 {
+    background-color: #c155cf34;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    place-items: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    transition: .4s;
+    margin: 20px auto 20px;
+    border: none;
+    box-shadow: 0px 0px 7px #c155cfc7;
+    background-color: #c155cf48;
+}
+
+.btn2:hover {
+    background-color: #c155cfa6;
+}
