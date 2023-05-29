@@ -4,6 +4,12 @@
 @import "form";
 /*variables*/
 $color-principal:#e4c1f9b7;
+/*mixin*/
+@mixin categoria ($txt, $altura, $cubrir){
+    background-size: $cubrir;
+    height:$altura;
+    text-align: $txt;
+}
 body {
     font-family: "jost";
     padding: 0;
@@ -470,12 +476,10 @@ nav {
 
     .mates {
         grid-area: mate;
-        text-align: center;
+        @include categoria (center , 300px , cover);
         background-image: url(./IMG/FONDO\ MATE.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
         background-position: 0% 45%;
-        height: 300px;
     }
 
     .mates h2 {
@@ -486,12 +490,10 @@ nav {
 
     .pijamas {
         grid-area: pijama;
-        text-align: center;
         background-image: url(./IMG/FONDO\ PANTUFLAS.jpg);
         background-position: 0% 50%;
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 300px;
+        @include categoria (center , 300px , cover);
     }
 
     .pijamas h2 {

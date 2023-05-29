@@ -60,6 +60,7 @@ textarea {
 }
 
 /*variables*/
+/*mixin*/
 body {
   font-family: "jost";
   padding: 0;
@@ -505,12 +506,12 @@ nav {
   }
   .mates {
     grid-area: mate;
+    background-size: cover;
+    height: 300px;
     text-align: center;
     background-image: url(./IMG/FONDO\ MATE.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: 0% 45%;
-    height: 300px;
   }
   .mates h2 {
     height: 40px;
@@ -519,12 +520,12 @@ nav {
   }
   .pijamas {
     grid-area: pijama;
-    text-align: center;
     background-image: url(./IMG/FONDO\ PANTUFLAS.jpg);
     background-position: 0% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    text-align: center;
   }
   .pijamas h2 {
     height: 40px;
