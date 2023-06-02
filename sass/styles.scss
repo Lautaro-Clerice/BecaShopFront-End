@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@200;300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2? family=Unica+One&display=swap');
 @import "form";
+@import "gift";
 /*variables*/
 $color-principal:#e4c1f9b7;
 /*mixin*/
@@ -379,8 +380,6 @@ nav {
     color: #fff;
     cursor: pointer;
 }
-
-
 /* SECCION RESPONSIVE */
 @media screen and (max-width: 850px) {
     .contenedor {
@@ -426,7 +425,7 @@ nav {
 
     .titulo-contacto {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 100px;
     }
 
     .titulo-preguntas {
@@ -447,10 +446,12 @@ nav {
 
     .preguntas h2 {
         font-size: 22px;
+        margin-left: 15px;
     }
 
     .preguntas p {
         font-size: 16px;
+        margin-left: 30px;
     }
 
     .logo-mob img {
