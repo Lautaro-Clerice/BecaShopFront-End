@@ -76,7 +76,8 @@ h1 {
 // custom
 .flip {
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     margin-right: 2px;
     margin-bottom: 1em;
     width: 400px;
